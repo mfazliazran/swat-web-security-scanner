@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1C426E72-353F-4C0E-A40A-F0140B382CAF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AgWebScanner</RootNamespace>
+    <AssemblyName>AgWebScanner</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\875144\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>5A6B3DE89A9DFB97FC4AF342EF04F70539B81FA3</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>AgWebScanner_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>branding.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\lib\HtmlAgilityPack.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\lib\itextsharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\ucHttpScan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucHttpScan.Designer.cs">
+      <DependentUpon>ucHttpScan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucUsernameEnumerator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucUsernameEnumerator.Designer.cs">
+      <DependentUpon>ucUsernameEnumerator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucVpnScan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucVpnScan.Designer.cs">
+      <DependentUpon>ucVpnScan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Core\AgReportBuilder.cs" />
+    <Compile Include="Core\HttpScan\Command.cs" />
+    <Compile Include="Core\HttpScan\HttpScanner.cs" />
+    <Compile Include="Core\Scanner\DirectoryScanDetails.cs" />
+    <Compile Include="Core\UsernameEnumerator\ResponseDetails.cs" />
+    <Compile Include="Core\UsernameEnumerator\UsernameEnumeratorManager.cs" />
+    <Compile Include="Core\UsernameEnumerator\UsernameEnumeratorSetting.cs" />
+    <Compile Include="Core\Scanner\Utils.cs" />
+    <Compile Include="Core\VpnScanner\AttackSettings.cs" />
+    <Compile Include="Core\VpnScanner\Categories.cs" />
+    <Compile Include="Core\VpnScanner\JuniperManager.cs" />
+    <Compile Include="Core\VpnScanner\ResponseDetails.cs" />
+    <Compile Include="Core\VpnScanner\ResponseSummary.cs" />
+    <Compile Include="Core\VpnScanner\ScannerSetting.cs" />
+    <Compile Include="fmPageBody.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmPageBody.Designer.cs">
+      <DependentUpon>fmPageBody.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmScanner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmScanner.Designer.cs">
+      <DependentUpon>FmScanner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyCheck.Designer.cs">
+      <DependentUpon>KeyCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\ucHttpScan.resx">
+      <DependentUpon>ucHttpScan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucUsernameEnumerator.resx">
+      <DependentUpon>ucUsernameEnumerator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucVpnScan.resx">
+      <DependentUpon>ucVpnScan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmPageBody.resx">
+      <DependentUpon>fmPageBody.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmScanner.resx">
+      <DependentUpon>FmScanner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyCheck.resx">
+      <DependentUpon>KeyCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="AgWebScanner_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Core\Scanner\ScanDetails.cs" />
+    <Compile Include="Core\Scanner\ScannerManager.cs" />
+    <Compile Include="Core\Scanner\ScannerSetting.cs" />
+    <Compile Include="Core\Scanner\SettingNode.cs" />
+    <Compile Include="Core\Scanner\SettingsManager.cs" />
+    <Compile Include="Core\Scanner\XmlSettingsHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\Pause16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\792469096.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\56terg5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="branding.ico" />
+    <None Include="Resources\fileb.png" />
+    <None Include="Resources\fileb.bmp" />
+    <None Include="Resources\error32.jpg" />
+    <None Include="Resources\x_ca6f4979.png" />
+    <None Include="Resources\warning.png" />
+    <None Include="Resources\warning.jpg" />
+    <None Include="Resources\ok32.jpg" />
+    <None Include="Resources\ok.png" />
+    <None Include="Resources\ok.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

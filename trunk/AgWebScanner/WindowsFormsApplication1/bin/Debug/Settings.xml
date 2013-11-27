@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <Setting>
+    <Name>adobe_xml</Name>
+    <File>\DefaultChecks\adobe_xml.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>Apache_dojo_framework</Name>
+    <File>\DefaultChecks\Apache_dojo_framework.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>apache_tomcat_application_server</Name>
+    <File>\DefaultChecks\apache_tomcat_application_server.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>apache_web_server</Name>
+    <File>\DefaultChecks\apache_web_server.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>backend_dirs</Name>
+    <File>\DefaultChecks\backend_dirs.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>CA_siteminder_adminstration</Name>
+    <File>\DefaultChecks\CA_siteminder_adminstration.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>checkpoint_firewall_web_interface</Name>
+    <File>\DefaultChecks\checkpoint_firewall_web_interface.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>citrix_application_server</Name>
+    <File>\DefaultChecks\citrix_application_server.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>cold_fusion_application_server</Name>
+    <File>\DefaultChecks\cold_fusion_application_server.txt</File>
+    <ResponseTypes>403 Forbidden ,401 Unauthorized,200 OK,202 Accepted,301 Moved,302 Found,500 Internal Server Error</ResponseTypes>
+    <WebMethod>GET</WebMethod>
+    <Port>0</Port>
+    <Login></Login>
+    <Password></Password>
+    <IbmFile></IbmFile>
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies></Cookies>
+    <ErrorPageTitle></ErrorPageTitle>
+    <ErrorPageBodyText></ErrorPageBodyText>
+    <PostRequestString>=</PostRequestString>
+    <FileCheck>False</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>contentXXL_cms</Name>
+    <File>\DefaultChecks\contentXXL_cms.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>dirs_big_list</Name>
+    <File>\DefaultChecks\dirs_big_list.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>DotProject</Name>
+    <File>\DefaultChecks\DotProject.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>drupal_cms_dirs</Name>
+    <File>\DefaultChecks\drupal_cms_dirs.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>fatwire_CMS</Name>
+    <File>\DefaultChecks\fatwire_CMS.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>frontpage_tests</Name>
+    <File>\DefaultChecks\frontpage_tests.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>general_admin_logins</Name>
+    <File>\DefaultChecks\general_admin_logins.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>general_Nikto</Name>
+    <File>\DefaultChecks\general_Nikto.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>general_php_requests</Name>
+    <File>\DefaultChecks\general_php_requests.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>general_unix_files</Name>
+    <File>\DefaultChecks\general_unix_files.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>general_vuln_files</Name>
+    <File>\DefaultChecks\general_vuln_files.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>Hyperion_CMS</Name>
+    <File>\DefaultChecks\Hyperion_CMS.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>ibm_websphere_application_server</Name>
+    <File>\DefaultChecks\ibm_websphere_application_server.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>iis_web_server</Name>
+    <File>\DefaultChecks\iis_web_server.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>J2EE_JRUN_application_server</Name>
+    <File>\DefaultChecks\J2EE_JRUN_application_server.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>Java_servlets_and_jboss</Name>
+    <File>\DefaultChecks\Java_servlets_and_jboss.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>Jira_JSP</Name>
+    <File>\DefaultChecks\Jira_JSP.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>Joomla_cms_dirs</Name>
+    <File>\DefaultChecks\Joomla_cms_dirs.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>Lotus_domino_web_server</Name>
+    <File>\DefaultChecks\Lotus_domino_web_server.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>mbrs_php</Name>
+    <File>\DefaultChecks\mbrs_php.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>microsoft_sharepoint</Name>
+    <File>\DefaultChecks\microsoft_sharepoint.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>novell_access_manager_and_netware</Name>
+    <File>\DefaultChecks\novell_access_manager_and_netware.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>oracle_web_and_application_server</Name>
+    <File>\DefaultChecks\oracle_web_and_application_server.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>phpmyadmin_cms</Name>
+    <File>\DefaultChecks\phpmyadmin_cms.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>Piwik</Name>
+    <File>\DefaultChecks\Piwik.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>proxy_test</Name>
+    <File>\DefaultChecks\proxy_test.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>SAP_web_server</Name>
+    <File>\DefaultChecks\SAP_web_server.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>symfony_cms</Name>
+    <File>\DefaultChecks\symfony_cms.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>typo3_cms</Name>
+    <File>\DefaultChecks\typo3_cms.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>vignette_cms</Name>
+    <File>\DefaultChecks\vignette_cms.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>Winlike</Name>
+    <File>\DefaultChecks\Winlike.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+  <Setting>
+    <Name>wordpress_cms</Name>
+    <File>\DefaultChecks\wordpress_cms.txt</File>
+    <ResponseTypes>200 OK</ResponseTypes>
+    <WebMethod />
+    <Port>0</Port>
+    <Login />
+    <Password />
+    <IbmFile />
+    <IbmCheckEnabled>False</IbmCheckEnabled>
+    <Cookies />
+    <ErrorPageTitle />
+    <ErrorPageBodyText />
+    <PostRequestString />
+    <FileCheck>false</FileCheck>
+  </Setting>
+</Settings>

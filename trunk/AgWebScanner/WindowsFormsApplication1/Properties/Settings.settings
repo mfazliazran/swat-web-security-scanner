@@ -1,0 +1,69 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AgWebScanner.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SettingsFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Settings.xml</Value>
+    </Setting>
+    <Setting Name="Key" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">031CC418-C039-11E0-A1F6-539E4824019B</Value>
+    </Setting>
+    <Setting Name="Registered" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DefaultChecksFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\DefaultChecks</Value>
+    </Setting>
+    <Setting Name="QuickScanSettings" Type="System.String" Scope="User">
+      <Value Profile="(Default)">QuickScanSettings.xml</Value>
+    </Setting>
+    <Setting Name="CheckByIdUrlPart" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dana-na/auth/url_$URLID/welcome.cgi?</Value>
+    </Setting>
+    <Setting Name="ScriptingAttacksUrlPartDefault" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dana-na/auth/url_default/welcome.cgi?p=logout&amp;c=37&amp;u=&lt;/script&gt;&lt;script&gt;alert(1)&lt;/script&gt;</Value>
+    </Setting>
+    <Setting Name="FirstRemediateCgiUrlPart" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dana-na/auth/remediate.cgi?action=&amp;step=preauth</Value>
+    </Setting>
+    <Setting Name="SecondRemediateCgiUrlPart" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dana-na/auth/remediate.cgi?step=preauth</Value>
+    </Setting>
+    <Setting Name="FirstFileUrlPart" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dana-cached/setup/JuniperSetupSP1.cab</Value>
+    </Setting>
+    <Setting Name="SecondFileUrlPart" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dana-cached/sc/JuniperSetupClientInstaller.exe</Value>
+    </Setting>
+    <Setting Name="Meeting" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dana-na/meeting/login_meeting.cgi?mid=DIMITRY</Value>
+    </Setting>
+    <Setting Name="ScriptingAttackUrlPartCustom" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">p=logout&amp;c=37&amp;u=&lt;/script&gt;&lt;script&gt;alert(1)&lt;/script&gt;</Value>
+    </Setting>
+    <Setting Name="AuthByPassUrlPart" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dana-na/download/?url=/dana/home/launch.cgi?url=http://www.example.com/</Value>
+    </Setting>
+    <Setting Name="XssVulnerabilityUrlPart" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dana-na/meeting/meeting_testresult.cgi?redir=%2Fdana-na%2Fmeeting%2Flogin_meeting.cgi%22%3E%3Cscript%3Ealert(999)%3C/script%3E&amp;java=1 </Value>
+    </Setting>
+    <Setting Name="CXssVulnerabilityUrlPart" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dana/fb/smb/rd.cgi?si=%22)%3balert(999)%3b&lt;/script&gt;</Value>
+    </Setting>
+    <Setting Name="DXssVulnerabilityUrlPart" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dana/fb/smb/wu.cgi?dir=foo%22&gt;&lt;script&gt;alert(999)%3b&lt;/script&gt;</Value>
+    </Setting>
+    <Setting Name="EXssVulnerabilityUrlPart" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dana-na/download/?url=/dana/fb/smb/wfmd.cgi?file=AAAAAAA%0aRefresh:%201,URL=javascript:alert(999)%0aFoo:%0a%0a</Value>
+    </Setting>
+    <Setting Name="FXssVulnerabilityUrlPart" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dana-na/download/?url=/dana/home/launch.cgi?url=vbscript:MsgBox(%2522999%2522)</Value>
+    </Setting>
+    <Setting Name="GBXssVulnerabilityUrlPart" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dana-na/download/?url=/dana/home/launch.cgi?url=data:text/html%3bbase64,PHNjcmlwdD5hbGVydCg5OTkpPC9zY3JpcHQ+</Value>
+    </Setting>
+    <Setting Name="AdminAccessUrlPart" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dana-na/auth/url_admin/welcome.cgi</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,1 @@
+To get started with the web scanner you first need to set up some checks. Go in general settings, press "add new check" and then select the input file. The input files are stored in the directory default checks within your SWAT installation directory.

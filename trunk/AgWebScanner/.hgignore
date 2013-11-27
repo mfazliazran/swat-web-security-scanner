@@ -1,0 +1,27 @@
+syntax: glob
+_sgbak
+.hgignore
+*.exclude
+_gsdata_
+*.zip
+*.cache
+obj
+*.pdb
+1_Transferring
+*.suo
+*.orig
+AgWebScanner.suo
+*.dll.config
+_ReSharper.AgWebScanner
+AgWebScanner.5.1.ReSharper.user
+AgWebScanner.6.1.ReSharper.user
+UpgradeLog.XML
+_UpgradeReport_Files
+AgWebScanner.vshost.application
+*.manifest
+AgWebScanner.vshost.exe.config
+AgWebScanner.vshost.exe
+AgWebScanner.exe.config
+AgWebScanner.exe
+WindowsFormsApplication1.vshost.exe.config
+AgWebScanner.application
